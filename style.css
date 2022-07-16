@@ -1,0 +1,97 @@
+.LOGO{
+    height: 60PX;
+    width: 60PX;
+}
+
+.navbar{
+    background-color: #d32f2F !important;
+}
+.nav-link{
+   color: beige !important;
+   font-weight: bold !important;
+}
+/* .navbar-text{
+    margin-left: 700px;
+} */
+.btn{
+    background-color: #d32f2F !important;
+    border-color:  #d32f2F;
+    font-weight: bold !important;   
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important ;
+}
+.fa-truck,.fa-clock-o,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color:    #d32f2F !important;;
+}
+h3{
+    color:     #d32f2F !important;;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.mainCard{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newarrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+.card-img-top{
+    height: 200px;
+}
+.btn-primary{
+    width: 100%;
+    background-color:  #d32f2F;
+    
+}
+.btn-primary :hover{
+    color:antiquewhite  ;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: #d32f2F;
+    margin: 20px;
+
+}
+.heading >h1{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    background-color: #d32f2F;
+    height: 70PX;
+    text-align: center;
+}
+h4{
+    color: aliceblue;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+        margin-right: 30px;
+    }
+
+}
